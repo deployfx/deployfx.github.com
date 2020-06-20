@@ -1,0 +1,19 @@
+{
+  "name": "deployfx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:deployfx/deployfx.github.com.git",
+  "author": "Mark Hayes <me@markhay.es>",
+  "license": "None",
+  "private": true,
+  "dependencies": {
+    "tailwindcss": "^1.4.0"
+  },
+  "scripts": {
+    "build:css": "tailwindcss build css/main.css -o src/css/main.css",
+    "serve": "serve src"
+  },
+  "devDependencies": {
+    "serve": "^11.3.2"
+  }
+}
